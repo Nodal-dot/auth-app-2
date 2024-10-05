@@ -1,0 +1,15 @@
+.label{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8B8F98;
+    height: 20px;
+    margin-bottom: 8px;
+    cursor: default;
+}
+
+@media (height <= 600px) {
+    .label {
+        margin-bottom: 0;
+    }
+}

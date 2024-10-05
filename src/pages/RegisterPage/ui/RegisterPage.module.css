@@ -1,0 +1,55 @@
+
+.imageBlock {
+    transition: margin 0.5s;
+    width: 100%;
+}
+
+.imageWrapper {
+    display: flex;
+    height: 100%;
+    flex-basis: 50%;
+
+}
+
+.image {
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+.contentContainer {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.authBlock{
+    height: 100%;
+    display: grid;
+    width: 340px;
+    place-content: center;
+}
+
+.authPage {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+@media (width <= 760px) {
+   .authPage {
+       flex-direction: column;
+   }
+
+   .imageWrapper{
+       flex-basis: 15%;
+       height: 0;
+   }
+
+   .contentContainer{
+       flex-basis: 85%;
+   }
+}

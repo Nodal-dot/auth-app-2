@@ -1,0 +1,67 @@
+.field{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px
+
+}
+
+.field:last-child{
+    margin-bottom: 0;
+}
+
+.error{
+    position: absolute;
+    top: 105%;
+    font-size: 12px;
+    color: #E03A15;
+}
+
+.successInput {
+    border-color: #00A35F !important;
+}
+
+.successIcon{
+    position: absolute;
+    top: 57%;
+    right: 10px;
+}
+
+.errorInput {
+    border-color :#E03A15 !important;
+}
+
+.fields {
+    margin-bottom: 40px
+}
+
+@media (height <= 800px) {
+    .field {
+        margin-bottom: 30px;
+    }
+
+    .fields {
+        margin-bottom: 30px;
+    }
+}
+
+@media (height <= 600px) {
+    .field {
+        margin-bottom: 20px;
+    }
+
+    .fields {
+        margin-bottom: 20px;
+    }
+}
+
+@media (height <= 400px) {
+    .field {
+        margin-bottom: 15px;
+
+    }
+
+    .fields {
+        margin-bottom: 15px;
+    }
+}

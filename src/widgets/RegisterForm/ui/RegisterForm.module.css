@@ -1,0 +1,8 @@
+.form  {
+    flex-direction: column;
+    align-self: center;
+}
+
+.fields {
+    margin-bottom: 40px;
+}
